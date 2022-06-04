@@ -1,0 +1,30 @@
+.home-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 21px;
+  }
+
+  h4{
+    color: #39e9fe;
+  }
+  .image {
+    width: 90%;
+    height: 420px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+ 
+  
+
+ 
+ 
+  @media only screen and (max-width: 668px) {
+    .home-container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  @media only screen and (min-width: 689px) and (max-width: 991px) {
+    .home-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }

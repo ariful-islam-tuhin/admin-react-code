@@ -1,0 +1,25 @@
+.banner{
+   /* background-image:url('https://priyoshopbackup.blob.core.windows.net/priyoshop/content/Images/Thumbs/0235541_mini-star-chandelier-jarbati_550.jpeg'); */
+   background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdfeCDj1GVSRYZkECw-HfoprH0DJWwNTZq9g&usqp=CAU');
+   background-image:url('https://cdn.shopify.com/s/files/1/0469/5264/4764/products/He25cb6192f8e4a2f97f185e890ac991en_600x.png?v=1631628276');
+
+   /* background-image:url('https://secure.img1-fg.wfcdn.com/im/15814003/resize-h600-w600%5Ecompr-r85/5345/53450069/Donelson+3+-Light+35cm+Semi+Flush+Mount.jpg');
+   background-image:url('https://cdn.shopify.com/s/files/1/0565/7414/8774/products/product-image-902629804.jpg?v=1623968112');
+   color: rgb(243, 72, 72); */
+   color:rgb(131, 20, 20);
+   background-size: 100% 100%; 
+   font-weight: bold;
+   font-size:4vw;   
+}
+
+.wave{
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+
+}
+/* .particle{
+    padding: 400px;
+} */

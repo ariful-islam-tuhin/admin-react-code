@@ -1,0 +1,42 @@
+.service-div {
+    height: 500px; 
+    margin-bottom: 20px;
+}
+   .image:not(:hover){
+    transform: scale(.8) skew(0deg);
+    transition:transform 2s ease-in-out; 
+    z-index: -1;
+
+  }
+  .image:hover {
+    transform: scale(1) skew(0deg);
+    transition:transform 2s ease-in-out;
+    
+  }
+  /* .room-desc:hover {
+    transform: scale(1) skew(0deg);
+    transition:transform 2s ease-in-out;
+  }
+
+  .room-desc:not(:hover) {
+    transform: scale(.8) skew(15deg);
+    transition:transform 2s ease-in-out;
+    
+  } */
+  
+  .book-now {
+    background-color: #ff0101c2;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
+  }
+  .book-now:hover {
+    background-color: #ff0000c2;
+    color: rgb(0, 0, 0);
+   
+  }
+  .image{
+    max-height: 350px;
+  }

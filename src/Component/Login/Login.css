@@ -1,0 +1,10 @@
+.form-class{
+ background-color: #aa1818bd;
+ padding:20px;
+ max-width: 500px;
+ border-radius: 10px;
+ font-family: poppins, sans-serif;
+}
+.submit-forms{
+    width: 150px;
+}
